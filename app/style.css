@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f172a;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player-container {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.song-info h3 {
+  font-weight: bold;
+}
+
+.song-info p {
+  color: #cbd5e1;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.progress input[type="range"] {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.controls .play {
+  background-color: rgb(22, 2, 2);
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+}
